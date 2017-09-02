@@ -39,3 +39,4 @@ DEFAULT_PAGINATION = 5
 
 THEME = os.path.expanduser('~/mywork/getpelican/pelican-theme/Flex')
 
+STATIC_PATHS = ['theme']

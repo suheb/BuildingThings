@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
 
 AUTHOR = 'Suhaib Khan'
 SITENAME = 'Building things'
@@ -37,6 +36,8 @@ DEFAULT_PAGINATION = 5
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-THEME = os.path.expanduser('~/mywork/getpelican/pelican-theme/Flex')
+THEME = 'theme'
 
 STATIC_PATHS = ['theme']
+
+USE_LESS = True

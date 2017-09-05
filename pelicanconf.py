@@ -38,6 +38,6 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'theme'
 
-STATIC_PATHS = ['theme']
+STATIC_PATHS = ['theme', 'CNAME']
 
 USE_LESS = True

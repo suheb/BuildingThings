@@ -36,7 +36,13 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'theme'
 
-STATIC_PATHS = ['assets', 'CNAME']
+STATIC_PATHS = ['assets']
+
+EXTRA_PATH_METADATA = {
+    'assets/robots.txt': {'path': 'robots.txt'},
+    'assets/favicon.ico': {'path': 'favicon.ico'},
+    'assets/CNAME': {'path': 'CNAME'}
+}
 
 USE_LESS = True
 

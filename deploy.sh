@@ -8,7 +8,7 @@ else
 fi
 
 echo "Genrating content..."
-pelican content -o output -s pelicanconf.py
+pelican content -o output -s publishconf.py
 echo "Updading gh-pages branch.."
 ghp-import output -m "$msg"
 echo "Pushing to user page repo.."

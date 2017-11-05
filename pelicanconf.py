@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Suhaib Khan'
 SITENAME = 'Building things'
-SITEURL = 'http://suheb.in'
+SITEURL = 'http://localhost:8000'
 
 PATH = 'content'
 
@@ -43,10 +43,6 @@ EXTRA_PATH_METADATA = {
     'assets/favicon.ico': {'path': 'favicon.ico'},
     'assets/CNAME': {'path': 'CNAME'}
 }
-
-DISQUS_SITENAME = 'suheb'
-
-GOOGLE_ANALYTICS = 'UA-109241544-1'
 
 USE_LESS = True
 

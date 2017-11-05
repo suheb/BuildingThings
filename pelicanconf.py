@@ -44,6 +44,8 @@ EXTRA_PATH_METADATA = {
     'assets/CNAME': {'path': 'CNAME'}
 }
 
+DISQUS_SITENAME = 'suheb'
+
 USE_LESS = True
 
 AUTHORS_BIO = {

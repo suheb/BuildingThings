@@ -49,8 +49,8 @@ USE_LESS = True
 AUTHORS_BIO = {
   "suheb": {
     "name": "Suhaib Khan",
-    "cover": "assets/images/avatar.png",
-    "image": "assets/images/avatar.png",
+    "cover": "assets/images/cover.jpg",
+    "image": "assets/images/avatar.jpg",
     "website": "http://suheb.in",
     "location": "New Delhi",
     "bio": "A software developer passionate about building things!"

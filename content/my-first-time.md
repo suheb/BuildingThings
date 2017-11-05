@@ -12,7 +12,9 @@ I procrastinated writing this blog for over a month now. To be honest, I'm not m
 
 I recently attended the LinuxChix meetup in Delhi where I was invited as a speaker to talk about "How SSH works?". I reached the venue 15 minutes before my talk was scheduled. The one thing that struck me the most the moment I entered the room was the dearth of *Chix*. Being a LinuxChix (a women-oriented Linux community.) meetup, I expected to see a lot of girls. But apart from the two coordinators, there were only two other girls and one of them was the speaker. Sadly, this is the state of women in technology.
 
-I started my talk by giving a brief introduction of SSH. I shared a little story about [how ssh got the now famous port 22](https://www.ssh.com/ssh/port#sec-The-story-of-getting-SSH-port-22) which the attendees loved. After that, I described the various encryption and hashing algorithm used in SSH. There is a common misconception that SSH uses *asymmetric key encryption*. This notion is so widespread because the most commonly used method to authenticate the client does use asymmetric key encryption. This is the part where you get a prompt *like this* in your terminal window. 
+I started my talk by giving a brief introduction of SSH. I shared a little story about [how ssh got the now famous port 22](https://www.ssh.com/ssh/port#sec-The-story-of-getting-SSH-port-22) which the attendees loved. After that, I described the various encryption and hashing algorithm used in SSH. There is a common misconception that SSH uses *asymmetric key encryption*. This notion is so widespread because the most commonly used method to authenticate the client does use asymmetric key encryption. This is the part where you get a prompt *like this* in your terminal window.
+
+![SSH Prompt]({filename}/article_images/my-first-time/ssh-prompt.png "SSH Prompt ")
 
 But that's not the case. SSH uses *symmetric key encryption* to set up a secure channel for server and client to communicate.
 When you get the above prompt, the secure channel has already been established using symmetric key encryption behind the hood.

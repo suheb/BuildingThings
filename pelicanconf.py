@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Suhaib Khan'
 SITENAME = 'Building things'
-SITEURL = '/'
+SITEURL = ''
 
 PATH = 'content'
 
@@ -21,7 +21,6 @@ AUTHOR_FEED_RSS = None
 
 # Blogroll
 MENUITEMS = (('Home', '/'),
-         ('About', '/about'),
          ('Resume', 'http://suheb.in/resume'),)
 
 # Social widget
@@ -37,6 +36,17 @@ DEFAULT_PAGINATION = 5
 
 THEME = 'theme'
 
-STATIC_PATHS = ['theme', 'CNAME']
+STATIC_PATHS = ['assets', 'CNAME']
 
 USE_LESS = True
+
+AUTHORS_BIO = {
+  "suheb": {
+    "name": "Suhaib Khan",
+    "cover": "assets/images/avatar.png",
+    "image": "assets/images/avatar.png",
+    "website": "http://suheb.in",
+    "location": "New Delhi",
+    "bio": "A software developer passionate about building things!"
+  }
+}

@@ -14,7 +14,7 @@ I recently attended the LinuxChix meetup in Delhi where I was invited as a speak
 
 I started my talk by giving a brief introduction of SSH. I shared a little story about [how ssh got the now famous port 22](https://www.ssh.com/ssh/port#sec-The-story-of-getting-SSH-port-22) which the attendees loved. After that, I described the various encryption and hashing algorithm used in SSH. There is a common misconception that SSH uses *asymmetric key encryption*. This notion is so widespread because the most commonly used method to authenticate the client does use asymmetric key encryption. This is the part where you get a prompt *like this* in your terminal window.
 
-![SSH Prompt]({filename}/article_images/my-first-time/ssh-prompt.png "SSH Prompt ")
+![SSH Prompt](assets/article_images/my-first-time/ssh-prompt.png "SSH Prompt ")
 
 But that's not the case. SSH uses *symmetric key encryption* to set up a secure channel for server and client to communicate.
 When you get the above prompt, the secure channel has already been established using symmetric key encryption behind the hood.
